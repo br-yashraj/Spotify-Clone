@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+/* Define scrollbar track color */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the entire scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4); /* Color of the scroll handle */
+    border-radius: 10px; /* Roundness of the scroll handle */
+    border: 2px solid rgba(255, 255, 255, 0.4); /* Border around the scroll handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.6); /* Color of the scroll handle on hover */
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Border around the scroll handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.6); /* Color of the scroll track */
+    border-radius: 10px; /* Roundness of the scroll track */
+}
+
+/* Corner */
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0.6); /* Color of the scrollbar corner */
+}
